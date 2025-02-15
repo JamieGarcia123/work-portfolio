@@ -1,0 +1,19 @@
+/* header */
+.header-container{
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    color: #ffffff;
+    background-color: #3C4142;
+  }
+  
+  .header-content{
+    max-width: 1200px;
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  .header-content ul {
+    list-style: none;
+  }
