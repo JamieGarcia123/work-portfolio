@@ -1,12 +1,15 @@
-import logo from './logo.svg';
+
+
+import Header from './components/header/header';
+import Footer from './components/footer/footer';
 import './App.css';
 
-function App() {
+const App = (props) => {
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
+      <Header />
+      {props.children}
+      <Footer/>
     </div>
   );
 }
