@@ -12,8 +12,12 @@
     width: 90%;
     padding: 20px;
     margin: auto;
+    display: flex;
   }
   
   .header-content ul {
     list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
   }

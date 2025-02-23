@@ -7,7 +7,11 @@ export default function Header() {
     <div class="header-container">
         <nav class="header-content">
             <ul>
-                <li>Work Portfolio</li>
+                <li><a href={`/education`}>Bio</a></li>
+                <li><a href={`/education`}>Education</a></li>
+                <li>Portfolio</li>
+                <li>Certifications
+                </li>
             </ul>
         </nav>
     </div>

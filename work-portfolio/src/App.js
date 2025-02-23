@@ -1,15 +1,14 @@
 
 
-import Header from './components/header/header';
-import Footer from './components/footer/footer';
-import './App.css';
 
-const App = (props) => {
+import './App.css';
+import PageLayout from './pages/Layout/layout';
+
+
+const App = () => {
   return (
     <div className="App">
-      <Header />
-      {props.children}
-      <Footer/>
+      <PageLayout/>
     </div>
   );
 }

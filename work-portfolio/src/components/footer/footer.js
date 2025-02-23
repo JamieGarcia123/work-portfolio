@@ -3,7 +3,7 @@ export default function Footer() {
   
       <footer class="footer-container">
           <div class="footer-content">
-              Some content
+              suppose to be footer.
           </div>
       </footer>
     )} 
