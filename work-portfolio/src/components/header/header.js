@@ -1,18 +1,17 @@
 
 import './header.css'
+import {NavLink} from "react-router-dom"
 
 export default function Header() {
   return (
 
     <div class="header-container">
         <nav class="header-content">
-            <ul>
-                <li><a href={`/education`}>Bio</a></li>
-                <li><a href={`/education`}>Education</a></li>
-                <li>Portfolio</li>
-                <li>Certifications
-                </li>
-            </ul>
+          
+              <NavLink to="/education" end>Bio</NavLink>
+                <NavLink to="education" end>Education</NavLink>
+                <NavLink to="certifications" end>Certifications</NavLink>
+         
         </nav>
     </div>
   )} 

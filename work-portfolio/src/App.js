@@ -2,14 +2,20 @@
 
 
 import './App.css';
-import PageLayout from './pages/Layout/layout';
+import Header from "./components/header/header"
+import Footer from "./components/footer/footer"
+import { Outlet } from 'react-router';
 
 
 const App = () => {
   return (
     <div className="App">
-      <PageLayout/>
-    </div>
+      <Header />    
+
+      <Outlet/>
+      
+      <Footer/>
+    </div> 
   );
 }
 

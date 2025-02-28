@@ -1,10 +1,8 @@
 
-import PageLayout from "../Layout/layout";
 
 
 const Education = () => {
   return (
-    <PageLayout>
     <div class="container" >
         <section>
           <h1>Lorem ipsom
@@ -15,7 +13,6 @@ const Education = () => {
         </aside>
      
     </div>
-    </PageLayout>
   );
 }
 
