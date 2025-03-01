@@ -1,5 +1,5 @@
 
- const certifications = [
+export const certifications = [
 
     {
         name: "AWS Cloud Practitioner",
