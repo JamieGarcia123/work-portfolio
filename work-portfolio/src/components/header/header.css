@@ -13,11 +13,11 @@
     padding: 20px;
     margin: auto;
     display: flex;
+    justify-content: space-around;
   }
   
-  .header-content ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
+  .header-content a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
   }
