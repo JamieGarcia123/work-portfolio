@@ -2,6 +2,7 @@
 export const certifications = [
 
     {
+        id: "AWS",
         name: "AWS Cloud Practitioner",
         distributor: "Aamazon Web Services",
         issued: "12/08/2023",
@@ -9,6 +10,7 @@ export const certifications = [
         
     },
     {
+        id: "projectPlus",
         name: "Project+",
         distributor: "CompTIA",
         issued: "03/26/2024",
@@ -16,6 +18,7 @@ export const certifications = [
         
     },
     {
+        id: "itilFour",
         name: "ITIL 4",
         distributor: "People Cert",
         issued: "08/10/2024",
