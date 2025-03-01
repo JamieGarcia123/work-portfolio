@@ -10,10 +10,10 @@ import { Outlet } from 'react-router';
 const App = () => {
   return (
     <div className="App">
-      <Header />    
-
+      <Header />  
+      <main> 
       <Outlet/>
-      
+      </main> 
       <Footer/>
     </div> 
   );
