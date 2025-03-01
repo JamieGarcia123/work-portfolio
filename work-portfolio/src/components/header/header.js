@@ -8,9 +8,9 @@ export default function Header() {
     <div class="header-container">
         <nav class="header-content">
           
-              <NavLink to="/education" end>Bio</NavLink>
+              <NavLink to="" end>Bio</NavLink>
                 <NavLink to="education" end>Education</NavLink>
-                <NavLink to="certifications" end>Certifications</NavLink>
+                <NavLink to="projects" end>Projects</NavLink>
          
         </nav>
     </div>
