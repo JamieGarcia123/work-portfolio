@@ -2,11 +2,11 @@
 export const certifications = [
 
     {
-        id: "AWS",
+        id: "aws",
         name: "AWS Cloud Practitioner",
-        distributor: "Aamazon Web Services",
+        distributor: "Amazon Web Services",
         issued: "12/08/2023",
-        expiraton: "12/08/2026"
+        expiration: "12/08/2026"
         
     },
     {
@@ -14,7 +14,7 @@ export const certifications = [
         name: "Project+",
         distributor: "CompTIA",
         issued: "03/26/2024",
-        expiration: "N/A"
+        expiration: null,
         
     },
     {
@@ -22,7 +22,7 @@ export const certifications = [
         name: "ITIL 4",
         distributor: "People Cert",
         issued: "08/10/2024",
-        expiraton: "08/10/2027"
+        expiration: "08/10/2027"
         
     }
 ]
