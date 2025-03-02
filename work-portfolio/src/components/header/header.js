@@ -10,6 +10,7 @@ export default function Header() {
           
               <NavLink to="" end>Bio</NavLink>
                 <NavLink to="education" end>Education</NavLink>
+                <NavLink to="work-experience" emd>Experience</NavLink>
                 <NavLink to="projects" end>Projects</NavLink>
          
         </nav>
