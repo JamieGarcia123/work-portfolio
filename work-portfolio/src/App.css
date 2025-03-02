@@ -45,5 +45,11 @@ p {
   font-weight: 700;
 }
 
+.container {
+  max-width: 1440px;
+  margin: auto;
+  width: 80%;
+}
+
 
 

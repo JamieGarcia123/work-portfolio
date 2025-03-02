@@ -29,9 +29,16 @@ const EducationPage = () => {
          {certifications.map(cert => (
          <> 
           <div className="certContent">
-            <h3>{cert.name}</h3>
-              <p>{cert.distributor}</p>
-              <p>{cert.expiraton}</p>
+            <div  className="certCard">
+              <div className="certCard-front">
+                <h3>{cert.name}</h3>
+                <p>{cert.distributor}</p>
+                {cert?.issued ? <p>Issued: {cert.issued}</p> : <p>''</p> }
+                {cert?.expiration ? <p>Expires: {cert.expiration}</p> : <p>Expires: Does not expire.</p>}
+                <div  className="certCard-back" ><div id={cert.id}></div></div>
+              </div>
+              
+            </div>
           </div>
           </>)
           )}
