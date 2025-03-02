@@ -1,16 +1,16 @@
 export const joblist = [
 {
-    company: "",
-    start: "",
+    company: "Impact Group Marketing",
+    start: "March 2024",
     end: "",
-    title: "",
+    title: "Web Developer",
     description: "",
 },
 {
-    company: "",
-    start: "",
+    company: "Codesulting, LLC.",
+    start: "April 2019",
     end: "",
-    title: "",
+    title: "Front End Developer",
     description: "",
 }
 
