@@ -48,6 +48,7 @@ p {
 .container {
   max-width: 1440px;
   margin: auto;
+  display: flex;
   width: 80%;
 }
 
