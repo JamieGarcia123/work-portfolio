@@ -5,8 +5,8 @@ import {NavLink} from "react-router-dom"
 export default function Header() {
   return (
 
-    <div class="header-container">
-        <nav class="header-content">
+    <div className="header-container">
+        <nav className="header-content">
           
               <NavLink to="" end>Bio</NavLink>
                 <NavLink to="education" end>Education</NavLink>
