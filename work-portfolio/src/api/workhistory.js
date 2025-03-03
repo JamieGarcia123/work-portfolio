@@ -9,7 +9,7 @@ export const joblist = [
 {
     company: "Codesulting, LLC.",
     start: "April 2019",
-    end: "",
+    end: "January 2024",
     title: "Front End Developer",
     description: "",
 }
