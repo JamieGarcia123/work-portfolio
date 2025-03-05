@@ -3,6 +3,7 @@
 import{ certifications } from "../../api/certification"
 import { educationalItems } from "../../api/education"
 import "./education.css"
+import { Carousel } from 'nuka-carousel';
 
 const EducationPage = () => {
 
@@ -29,9 +30,10 @@ const EducationPage = () => {
             </div>
 
           <h2>Certifications</h2>
+          
           {certifications.map(cert => (
             <>
-              <div  className="certCard">
+               <div  className="certCard">
                 <div className="certCard-inner">
                   <div className="certCard-front">
                     <div> 
@@ -44,10 +46,10 @@ const EducationPage = () => {
                   <div className="certCard-back"><div id={cert.id}></div>
                   </div>
                 </div>
-              </div>
+              </div>    
             </>)
           )}
-         
+       
         </section>
       </div></>
   );
