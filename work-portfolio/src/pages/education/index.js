@@ -2,14 +2,7 @@
 
 import{ certifications } from "../../api/certification"
 import { educationalItems } from "../../api/education"
-import React, { useState, useEffect, useRef } from 'react';
-
 import "./education.css"
-import Carousel from "../../components/carousel";
-
-
-// Certification carousel
-
 
 const EducationPage = () => {
 
@@ -36,14 +29,12 @@ const EducationPage = () => {
             </div>
 
           <h2>Certifications</h2>
-       
           {certifications.map(cert => (
             <>
-              <div className="certCard">
+              <div  className="certCard">
                 <div className="certCard-inner">
-
                   <div className="certCard-front">
-                    <div>
+                    <div> 
                       <h3>{cert.name}</h3>
                       <p>{cert.distributor}</p>
                       {cert?.issued ? <p>Issued: {cert.issued}</p> : <p>''</p>}
@@ -52,11 +43,11 @@ const EducationPage = () => {
                   </div>
                   <div className="certCard-back"><div id={cert.id}></div>
                   </div>
-
                 </div>
               </div>
             </>)
           )}
+         
         </section>
       </div></>
   );
